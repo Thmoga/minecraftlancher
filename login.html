@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>마인크래프트 런처 로그인</title>
+    <style>
+        /* 여기에 CSS 스타일을 추가해 멋지게 꾸며봐! */
+    </style>
+</head>
+<body>
+    <h1>마인크래프트 로그인</h1>
+    <form id="loginForm">
+        <input type="text" id="username" placeholder="아이디" required>
+        <input type="password" id="password" placeholder="비밀번호" required>
+        <input type="checkbox" id="autoLogin"> 다음부터 자동로그인
+        <button type="button" onclick="handleLogin()">로그인</button>
+        <p id="errorMessage" style="color: red;"></p>
+    </form>
+    <script src="renderer.js"></script>
+</body>
+</html>
